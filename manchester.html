@@ -33,12 +33,17 @@
         .carousel-inner{
           position: relative;
         }
-        .carousel-inner > .item > img {
+        .carousel-inner img {
+          margin: 0 auto;
+          align-content: center;
+          display: block;
+
+        }
+        /* .carousel-inner > .item > img {
           position: absolute;
           left: 0;
           right: 0;
-          height: 300px;
-        }
+        } */
       </style>
 
 
@@ -48,7 +53,7 @@
       <title>Pierre G. - Aviation Photography</title>
     </head>
     <body>
-        <div class="flex-shrink-0 p-3 bg-white" style="width: 250px;">
+        <div class="flex-shrink-0 p-3 bg-white" style="width: 230px;">
           <a href="/index.html" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
             <span class="fs-5 fw-semibold">Aviation Photography</span>
           </a>
@@ -80,7 +85,7 @@
           </ul>
         </div>
 
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin-left: 300px; margin-right: 300px">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin-left: 250px; margin-right: 250px; margin-top: auto; margin-bottom: auto">
 				  <div class="carousel-inner">
 				    <div class="carousel-item active" interval="false">
 				      <img src="photos/EI-EVR_LQ.jpeg" class="center-block" magin="auto" height="300px" alt="EI-EVR rotating out of MAN in the rain.">
@@ -89,7 +94,7 @@
 				      <img src="photos/IMG_5126.jpeg" class="center-block" magin="auto" height="300px" alt="TC-JOK climbing out of MAN.">
 				    </div>
 				    <div class="carousel-item" interval="false">
-				      <img src="photos/IMG_5261.jpeg" class="center-block" magin="auto" height="300px" alt="G-FBXA zooming out of MAN.">
+				      <img src="photos/IMG_5261.jpeg" class="center-block" magin="auto" width="300px" alt="G-FBXA zooming out of MAN.">
 				    </div>
 				  </div>
 				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

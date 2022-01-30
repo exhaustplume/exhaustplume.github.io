@@ -30,10 +30,14 @@
             font-size: 3.5rem;
           }
         }
+        .carousel-inner{
+          position: relative;
+        }
         .carousel-inner > .item > img {
           position: absolute;
-          margin: 0 auto;
-          height: 350px;
+          left: 0;
+          right: 0;
+          height: 300px;
         }
       </style>
 
@@ -78,13 +82,13 @@
 
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin-left: 300px; margin-right: 300px">
 				  <div class="carousel-inner">
-				    <div class="carousel-item active" data-bs-interval="false">
-				      <img src="photos/ja873av3.jpg" class="center-block" height="250px" magin="auto" alt="JA873A pulling into gate B37.">
+				    <div class="carousel-item active" data-interval="false">
+				      <img src="photos/ja873av3.jpg" class="center-block" magin="auto" alt="JA873A pulling into gate B37.">
 				    </div>
-				    <div class="carousel-item" data-bs-interval="false">
+				    <div class="carousel-item" data-interval="false">
 				      <img src="..." class="d-block w-100" alt="...">
 				    </div>
-				    <div class="carousel-item" data-bs-interval="false">
+				    <div class="carousel-item" data-interval="false">
 				      <img src="..." class="d-block w-100" alt="...">
 				    </div>
 				  </div>

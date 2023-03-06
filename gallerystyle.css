@@ -6,3 +6,6 @@
     display: flex;
     justify-content: center;
 }
+.copyright-text {
+    margin-bottom: 30px;
+}
